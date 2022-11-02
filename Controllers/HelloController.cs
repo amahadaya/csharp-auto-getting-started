@@ -12,7 +12,7 @@ namespace GettingStarted.Controllers
     {
         // POST voice/
         [HttpPost]
-        public string Post(CallStatusCallback request)
+        public string Post(CallResult request)
         {
           // Create a PerCl script
           PerclScript helloScript = new PerclScript();
