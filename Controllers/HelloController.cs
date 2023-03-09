@@ -8,14 +8,15 @@ using System.Collections.Generic;
 
 namespace GettingStarted.Controllers
 {
-    [Route("/")]
+    [Route("/voice")]
     [ApiController]
     public class HelloController : ControllerBase
     {
         // POST voice/
         [HttpPost]
-        public string Post(CallStatus request)
+        public string Post(CallResult request)
         {
+            System.Console.WriteLine("Request Value: " + request);
             // Create a PerCl script
             PerclScript helloScript = new PerclScript(new List<PerclCommand>());
 
