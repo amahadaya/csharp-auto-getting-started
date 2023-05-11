@@ -14,7 +14,7 @@ namespace GettingStarted.Controllers
     {
         // POST voice/
         [HttpPost]
-        public string Post(CallResult request)
+        public string Post(CallStatus request)
         {
             System.Console.WriteLine("Request Value: " + request);
             // Create a PerCl script

@@ -4,6 +4,6 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="freeclimb" Version="4.2.0"/>
+    <PackageReference Include="freeclimb" Version="4.4.0"/>
   </ItemGroup>
 </Project>
